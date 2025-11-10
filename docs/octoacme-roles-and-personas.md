@@ -1,81 +1,64 @@
-# OctoAcme Personas
-
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
-
----
-
-## Developers
+## Scrum Master
 
 ### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+Facilitates sprint ceremonies, removes obstacles, and promotes agile practices.
 
 ### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+- Facilitate daily standups, sprint planning, reviews, and retrospectives
+- Remove team impediments and escalate blockers when needed
+- Coach the team on agile ways of working and continuous improvement
 
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
+### Interactions
+Works closely with PM, PdM, and Developers to keep delivery on track.
 
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
-
----
-
-## Product Managers
+## DevOps Engineer
 
 ### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+Owns CI/CD pipelines, deployment processes, and infrastructure reliability.
 
 ### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
+- Maintain and improve automated build/release pipelines
+- Monitor system health and advise team on technical constraints
+- Collaborate with QA and Developers for smooth releases
 
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
+### Interactions
+Supports Developers, QA, PM, and responds to incidents.
 
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
-
----
-
-## Project Managers
+## Security Lead
 
 ### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+Oversees security risk management and incident response.
 
 ### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+- Review security risks and mitigation in planning and releases
+- Lead incident response for security events
+- Provide security guidance to Developers and PMs
 
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
+### Interactions
+Partners with PM, Product Lead, and Developers, especially during risk or incident escalation.
 
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+## Business Analyst
 
----
+### Role Summary
+Analyzes business needs, gathers requirements, and supports validation of deliverables.
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+### Responsibilities
+- Work with stakeholders to clarify goals and requirements
+- Translate business needs into actionable specs
+- Validate deliverables against business value
 
+### Interactions
+Collaborates with PM, PdM, Developers, and Stakeholders.
+
+## UX Designer
+
+### Role Summary
+Ensures solutions are user-centric and deliver positive experiences.
+
+### Responsibilities
+- Conduct user research and translate findings into design requirements
+- Create wireframes and prototypes for new features
+- Provide early feedback on usability and advocate for user needs
+
+### Interactions
+Works with Product Manager and Developers, advocates for end-users.
